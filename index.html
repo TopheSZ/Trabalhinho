@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header class="menu">
+      <ul>
+        <li><a href="#section01">Inicio</a></li>
+        <li><a href="#section02">Descrição</a></li>
+        <li><a href="#section03">Sobre</a></li>
+        <li><a href="#section04">Contato</a></li>
+      </ul>
+    </header>
+    <main>
+      <section id="section01">
+        <div class="section01-right-div">
+          <h2 class="l01">Tecno Recycle</h2>
+          <p class="p01">
+            Nossa empresa possui o propósito de reciclar 
+            lixo eletrônico
+          </p>
+        </div>
+      </section>
+      <section id="section02">
+        <h2 class="tec-title">Descrição</h2>
+        <div class="wrap-tecs">
+          <div>
+            <img
+              width="100px"
+              height="auto"
+              src="https://th.bing.com/th/id/R.a42d59863295fa7994559c27f136bd98?rik=yk6Maehy7xc3ig&riu=http%3a%2f%2fpluspng.com%2fimg-png%2frecycle-hd-png--2699.png&ehk=M1RvxTzgwD4s82yu4C0iptAuTPaWNnAO3mPSlGREVzs%3d&risl=&pid=ImgRaw&r=0"
+              alt=""
+            />
+            <br />
+            <p>
+              A reutilização de compostos eletrônicos é 
+              importante para o meio ambiente e evita o 
+              desperdicio de materiais.
+            </p>
+          </div>
+          <div>
+            <img
+              width="100px"
+              height="auto"
+              src="https://www.pngplay.com/wp-content/uploads/6/Computer-PC-Vector-PNG-HD-Quality.png"
+              alt=""
+            />
+            <br />
+            <p>
+              Através de nossos esforços podemos até mesmo 
+              montar um computador do zero com essas peças.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="section03">
+        <h2>Nosso Contato</h2>
+        <div class="color"><p>A Importância da Reciclagem para um Futuro Sustentável
+          Vivemos em uma era em que a conscientização sobre a sustentabilidade e 
+          a preservação ambiental é mais crucial do que nunca. 
+          A reciclagem emerge como uma das ferramentas mais poderosas para 
+          enfrentar os desafios ambientais atuais e garantir um futuro mais verde para as próximas gerações. 
+          A reciclagem é o processo de coleta, tratamento e reutilização de materiais que, de outra forma, seriam descartados como resíduos. 
+          Em vez de enviar esses materiais para aterros sanitários, onde podem 
+          levar centenas ou até milhares de anos para se decompor, a reciclagem os transforma em novos produtos, reduzindo a 
+          necessidade de matérias-primas virgens e minimizando a 
+          quantidade de resíduos gerados. </p></div>
+      </section>
+      <section id="section04">
+        <div class="left-contact">
+          <h2 class="heading-contact">Contato</h2>
+          <div
+            style="
+              display: flex;
+              flex-direction: column;
+              gap: 0.5vh;
+              position: relative;
+            "
+          >
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" />
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 0.5vh">
+            <label for="mensagem">Mensagem</label>
+            <input type="text" id="mensagem" />
+          </div>
+          <br />
+          <button onclick="conferirMensagemWhatsApp()">
+            Conferir Mensagem
+          </button>
+        </div>
+        <div class="right-contact" id="rightDiv">
+          <div>
+            <p>Nome: <span id="confNome"></span></p>
+            <br />
+            <p class="text">Mensagem: <span id="confMsg"></span></p>
+          </div>
+          <button onclick="enviar()">ZAP</button>
+        </div>
+      </section>
+      <footer> 
+        <a href="https://www.instagram.com/tophe.ls/"><img src="Assets/Insta.png" alt="instagram" srcset="">
+        <a href="https://x.com/PolvisLuck"><img src="Assets/twitter.png" alt="twitter" srcset="">
+        </a>
+      </footer>
+    </main>
+  </body>
+</html>
