@@ -12,6 +12,8 @@
       rel="stylesheet"
     />
     <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css"> 
   </head>
   <body>
     <header class="menu">
@@ -23,60 +25,46 @@
       </ul>
     </header>
     <main>
+      <!-- Eu tentei -->
       <section id="section01">
         <div class="section01-right-div">
-          <h2 class="l01">Tecno Recycle</h2>
+          <h1 class="l01">Tecno Recycle</h1>
           <p class="p01">
             Nossa empresa possui o propósito de reciclar 
             lixo eletrônico
           </p>
         </div>
+        <!-- Ficou feio, não gostei -->
       </section>
       <section id="section02">
-        <h2 class="tec-title">Descrição</h2>
-        <div class="wrap-tecs">
-          <div>
-            <img
-              width="100px"
-              height="auto"
-              src="https://th.bing.com/th/id/R.a42d59863295fa7994559c27f136bd98?rik=yk6Maehy7xc3ig&riu=http%3a%2f%2fpluspng.com%2fimg-png%2frecycle-hd-png--2699.png&ehk=M1RvxTzgwD4s82yu4C0iptAuTPaWNnAO3mPSlGREVzs%3d&risl=&pid=ImgRaw&r=0"
-              alt=""
-            />
-            <br />
-            <p>
-              A reutilização de compostos eletrônicos é 
-              importante para o meio ambiente e evita o 
-              desperdicio de materiais.
-            </p>
+        <div class="cards-container">
+          <div class="card">
+            <div class="card-content">
+              <p> A reutilização de compostos eletrônicos é 
+                importante para o meio ambiente e evita o 
+                desperdicio de materiais.</p>
+            </div>
           </div>
-          <div>
-            <img
-              width="100px"
-              height="auto"
-              src="https://www.pngplay.com/wp-content/uploads/6/Computer-PC-Vector-PNG-HD-Quality.png"
-              alt=""
-            />
-            <br />
-            <p>
-              Através de nossos esforços podemos até mesmo 
-              montar um computador do zero com essas peças.
-            </p>
+          <div class="card">
+            <div class="card-content">
+              <p>Através de nossos esforços podemos até mesmo 
+                montar um computador do zero com essas peças.</p>
+            </div>
           </div>
         </div>
       </section>
+      <!-- Essa seção ficou feia, mas não tenho ideia de como embelezar -->
       <section id="section03">
-        <h2>Nosso Contato</h2>
+        <h2>Sobre reciclagem</h2>
         <div class="color"><p>A Importância da Reciclagem para um Futuro Sustentável
-          Vivemos em uma era em que a conscientização sobre a sustentabilidade e 
-          a preservação ambiental é mais crucial do que nunca. 
+          Vivemos em uma era em que a conscientização<br> sobre a sustentabilidade e 
+          a preservação ambiental é mais crucial do que nunca.<br>
           A reciclagem emerge como uma das ferramentas mais poderosas para 
-          enfrentar os desafios ambientais atuais e garantir um futuro mais verde para as próximas gerações. 
-          A reciclagem é o processo de coleta, tratamento e reutilização de materiais que, de outra forma, seriam descartados como resíduos. 
-          Em vez de enviar esses materiais para aterros sanitários, onde podem 
-          levar centenas ou até milhares de anos para se decompor, a reciclagem os transforma em novos produtos, reduzindo a 
-          necessidade de matérias-primas virgens e minimizando a 
-          quantidade de resíduos gerados. </p></div>
+          enfrentar os desafios ambientais atuais e garantir<br> um futuro mais verde para as próximas gerações. <br>
+          A reciclagem é o processo de coleta, tratamento e reutilização de materiais que, de outra forma, seriam descartados como resíduos.</p> 
+        </div> 
       </section>
+      <!-- Fiquei sem ideia professor, copiei de vc, foi mal -->
       <section id="section04">
         <div class="left-contact">
           <h2 class="heading-contact">Contato</h2>
@@ -97,7 +85,7 @@
           </div>
           <br />
           <button onclick="conferirMensagemWhatsApp()">
-            Conferir Mensagem
+            
           </button>
         </div>
         <div class="right-contact" id="rightDiv">
@@ -106,14 +94,22 @@
             <br />
             <p class="text">Mensagem: <span id="confMsg"></span></p>
           </div>
-          <button onclick="enviar()">ZAP</button>
+          <button onclick="enviar()">Direct</button>
         </div>
       </section>
-      <footer> 
-        <a href="https://www.instagram.com/tophe.ls/"><img src="Assets/Insta.png" alt="instagram" srcset="">
-        <a href="https://x.com/PolvisLuck"><img src="Assets/twitter.png" alt="twitter" srcset="">
+      <!-- Mas esse é ideia minha mesmo, prefiro em preto e branco -->
+      <footer>
+        <a href="https://www.facebook.com" class="icon" target="_blank">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://www.twitter.com" class="icon" target="_blank">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://www.instagram.com" class="icon" target="_blank">
+          <i class="fab fa-instagram"></i>
         </a>
       </footer>
+      <!-- funcionou porra!!! nunca consultar Ia's, apenas pesquisar -->
     </main>
   </body>
 </html>
